@@ -1,0 +1,807 @@
+@charset "UTF-8";
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+	
+}
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Cantarell', sans-serif;
+
+}
+	
+p {
+    font-family: 'Cantarell', sans-serif;
+    font-size: 17px;
+}
+
+.clear-text {
+	text-shadow: 0px 0px 20px black;
+	
+}
+
+/*----------- NAVIGATION BAR -----------*/
+
+.nav-bar {
+	z-index: 9999;
+	width: 100%;
+	list-style-type: none;
+	background-color: #145A32;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	position: fixed;
+	animation-name: nav-bar-animate;
+	animation-duration: 1s;
+	
+}
+
+.nav-bar-container {
+	width: 100%;
+	height: 85px;
+	display: block;
+	background-color: #145A32;
+	
+}
+
+@keyframes nav-bar-animate {
+	0% {top: -100;}
+	100% {top: 0px;}
+}
+
+.nav-bar a li {
+	text-decoration: none;
+	font-family: 'Fjalla One', sans-serif;
+	color: white;
+	text-align: center;
+	padding: 30px;
+	display: inline-block;
+	font-size: 20px;
+	
+}
+.nav-bar li {
+	float: left;
+	transition: background-color 200ms ease-in;
+	
+}
+.nav-bar li:hover {
+	background-color: #1E8449;
+	
+}
+.nav-bar img {
+	margin: 10px 20px;
+	padding: 0px;
+	float: left;
+	width: 65px;
+	position: relative;
+	
+}
+
+
+/*----------- BACKGROUND IMAGE -----------*/
+
+.main {
+	width: 100%;
+	height: 91vh;
+	display: block;
+	background: url('resources/background-blurred-yellow.png');
+	background-size: cover;
+	
+}
+
+.main-text {
+	color: white;
+	margin: auto;
+	text-align: center;
+	padding: 15% 0px 0px;
+	animation-name: main-text-animate;
+	animation-duration: 2s;
+	
+}
+
+@keyframes main-text-animate {
+	0% {opacity: 0;}
+	100 {opacity: 1;}
+}
+
+.main-text h1{
+	font-size: 100px;
+	margin: 0px;
+	
+}
+.main-text h2{
+	margin: 0px;
+	font-size: 20px;
+	
+}
+
+.main-text a {
+	text-decoration: none;
+	color: white;
+	
+}
+
+.button {
+	width: 100px;
+	height: 50px;
+	border-radius: 5px;
+	border: 3px solid white;
+	margin: 30px auto;
+	transition: opacity 200ms ease-in 4s;
+	opacity: 1;
+	position: relative;
+	animation: button-animate-2 3s infinite;
+	
+}
+
+/* @keyframes button-animate {
+	0% {margin: -30px auto;
+		opacity: 0;}
+	100% {margin: 30px auto;
+		opacity: 1;}
+	
+} */
+
+@keyframes button-animate-2 {
+	0% {top: -10px;}
+	50% {top: 10px;}
+	100% {top: -10px;}
+}
+
+.button p {
+	margin: 0px;
+	padding: 0px 0px;
+	
+}
+
+.main a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	margin: 0px;
+	
+}
+
+.button a:hover {
+	opacity: 1;
+	
+}
+
+/*----------- MAIN SECTIONS  -----------*/
+
+.main-sections {
+	width: 100%;
+	height: 70vh;
+	background-color: #2ecc71;
+	z-index: 1;
+	display: block;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	filter: grayscale(100%) blur(3px);
+	transition: all 400ms ease-in;
+	
+}
+
+.main-sections:hover {
+	filter: grayscale(0%) blur(0px);
+	
+}
+
+.section-content {
+	width: auto;
+	height: auto;
+	margin: 12% 0px;
+	padding: 0px;
+	color: white;
+	text-align: center;
+	
+}
+
+.section-content h1{
+	font-size: 400%;
+	margin: 0px;
+	
+}
+
+.section-content a {
+	color: white;
+	text-decoration: none;
+	
+}
+
+.section-content .button {
+	width: 110px;
+	height: 60px;
+	padding: 0px 10px;
+	transition: all 400ms ease-in-out;
+	
+}
+
+.section-content .button:hover {
+	width: 200px;
+	
+}
+
+/* NEXT PAGE STYLES */
+	/* header */
+.page-main-header {
+	display: block;
+	filter: grayscale(0%) blur(0px);
+	transition: all 400ms ease-in;
+	
+}
+
+.page-main-header-content{
+	padding: 50px;
+}
+
+.page-main-header-content h1{
+	font-size: 600%;
+	
+}
+
+	/* content */
+
+.page-content-div {
+	padding: 50px 125px;
+	text-align: justify;
+	line-height: 35px;
+	
+}
+		/* text */
+.page-content-div p {
+	font-size: 20px;
+	
+}
+
+.page-content-div h1 {
+	margin: 0px;
+	
+}
+
+.history {
+	top: 10px;
+	
+}
+
+		/* image */
+			/* right */
+.page-content-div-image-right {
+	width: 420px;
+	height: auto;
+	float: right;
+	padding: 0px;
+	box-shadow: 0px 0px 10px #ccc;
+	margin: 0px 0px 9px 30px;
+	transition: all 300ms ease-in;
+
+}
+
+.page-content-div-image-right:hover {
+	transform: scale(1.05);
+	box-shadow: 0px 0px 20px 3px #ccc;
+	
+}
+
+.page-content-div-image-right img {
+	width: 100%;
+	height: auto;
+	display: block;
+	float: right;
+	
+}
+
+.page-content-div-image-right p {
+	margin: 0px;
+	font-style: italic;
+	
+}
+
+			/* left */
+.page-content-div-image-left {
+	width: 420px;
+	height: auto;
+	float: left;
+	padding: 0px;
+	box-shadow: 0px 0px 10px #ccc;
+	margin: 0px 30px 9px 0px;
+	transition: all 300ms ease-in;
+
+}
+
+.page-content-div-image-left:hover {
+	transform: scale(1.05);
+	box-shadow: 0px 0px 20px 3px #ccc;
+	
+}
+
+.page-content-div-image-left img {
+	width: 100%;
+	height: auto;
+	display: block;
+	float: right;
+	
+}
+
+.page-content-div-image-left p {
+	margin: 0px;
+	font-style: italic;
+	
+}
+
+		/* gallery */
+
+.page-gallery {
+	width: 100%;
+	height: 500px;
+	position: relative;
+	display: block;
+	top: 50px;
+	border: 10px solid white;
+	box-shadow: 0px 0px 20px 3px #ccc;
+	margin: 50px 0px;
+	overflow: hidden;
+	transition: all 200ms ease-in;
+	
+}
+
+.prev, .next {
+	background-color: #145A32;
+	border: none;
+	color: white;
+	padding: 1% 2%;
+	font-size: 30px;
+	font-family: "Fjalla One", sans-serif;
+	z-index: 5;
+	transition: background-color 200ms ease-in;
+	position: absolute;
+	top: 45%;
+	
+	
+}
+
+.prev {}
+
+.next { 
+	left: 95.2%;	
+}
+
+.prev:hover { background-color: #1E8449; }
+.next:hover { background-color: #1E8449; }
+
+.page-gallery img{
+	width: 100%;
+	z-index: 4;
+	height: 100%;
+	object-fit: cover;
+	margin: auto;
+	
+}
+
+		/* Barangays */
+		
+.barangay-section {
+	width: 100%;
+	height: auto;
+	display: block;
+	position: relative;
+	top: 50px;
+	padding-bottom: 50px;
+	
+	
+}
+
+.barangay-section h2{
+	margin: 20px;
+	
+}
+
+.barangay-group {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	margin: 0px;
+	text-align: center;
+	justify-content: center;
+	
+}
+.center {
+	text-align: center;
+	margin: 5px;
+}
+
+.barangay-link {
+	text-decoration: none;
+	color: black;
+	
+}
+
+.project-link {
+	text-decoration: none;
+	color: black;
+	
+}	
+
+.project {
+	opacity: 0.5;
+	filter: grayscale(100%);
+	transition: all 300ms ease-in;
+	
+}
+
+.project:hover {
+	opacity: 1;
+	filter: grayscale(0%);
+	transform: scale(1.1);
+	
+}
+
+.barangay-section .barangay {
+	display: block;
+	opacity: 0.5;
+	filter: grayscale(100%);
+	transition: all 300ms ease-in;
+	float: left;
+	width: calc(90%/4);
+	height: auto;
+	justify-content: justify;
+	margin: calc(10%/8);
+	color: black;
+	text-align: justify;
+	overflow: auto;
+}
+
+.barangay-section .barangay:hover {
+	opacity: 1;
+	filter: grayscale(0%);
+	transform: scale(1.2);
+}
+
+.barangay-info {
+	line-height: 120%;
+	text-align: center;
+}
+
+.barangay-section .barangay img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	float: center;
+}
+
+.barangay-more {
+	color: #145A32;
+	
+}
+
+/* PLACES  */
+.places-header, .projects-header {
+	margin-bottom: 50px;
+
+}
+
+.places-container {
+	width: 100%;
+	height: 2500px;
+	background: #fff;
+	display: block;
+	margin-top: 20px;
+	
+}
+
+.place {
+	width: 100%;
+	height: 40vh;
+	margin: 35px auto;
+	border-top: 3px solid #145A32;
+	padding-top: 35px;
+	opacity: 0.5;
+	transition: all 300ms ease-in;
+	
+}
+
+.place:hover {
+	opacity: 1;
+	transform: scale(1.05);
+	
+}
+
+.place h1 {
+	margin-left: 20px;
+	float: left;
+	font-size: 200%;
+}
+	/* image */
+.place-image {
+	width: 40%;
+	height: 100%;
+	background: #ddd;
+	float: left;
+	/* background: url('resources/places/marikina-river-park.jpg'); */
+	background-position: center;
+	background-size: cover;
+		
+}
+	/* text */
+.place-text {
+	width: 52%;
+	height: 86%;
+	float: left;
+	background: #fff;
+	padding: 0px 4%;
+	overflow-y: scroll;
+	
+}
+.place-text p {
+	margin: 10px 0px;
+	
+}
+	/* SCROLL */
+    .place-text::-webkit-scrollbar-track {
+        padding: 2px 0;
+        background-color: #1E8449
+    }
+
+    .place-text::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    .place-text::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #145A32;
+    }
+	
+	/* GALLERY */
+.place-gallery {
+	width: 100%;
+	height: auto;
+	position: relative;
+	display: block;
+	box-shadow: 0px 0px 20px 3px #ccc;
+	overflow: hidden;
+	transition: all 200ms ease-in;
+	
+}
+.place-gallery img{
+	width: 100%;
+	z-index: 4;
+	height: 100%;
+	object-fit: cover;
+	margin: auto;
+	
+}
+
+	/* GALLERY BUTTONS */
+.prev2, .next2 {
+	background-color: #145A32;
+	border: none;
+	color: white;
+	padding: 1% 2%;
+	font-size: 20px;
+	font-family: "Fjalla One", sans-serif;
+	z-index: 5;
+	transition: background-color 200ms ease-in;
+	position: absolute;
+	top: 45%;
+	
+}
+.prev2 {}
+.next2 { 
+	left: 94.3%;	
+}
+.prev2:hover { background-color: #1E8449; }
+.next2:hover { background-color: #1E8449; }
+
+
+/*------- PROJECTS -------*/
+
+.projects-section {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	margin-top: 20px;
+	text-align: center;
+	padding-bottom: 100px;
+	
+}
+
+.project-row {
+	display: inline-block;
+	margin-bottom: 10px;
+	height: auto;
+	width: 100%;
+	
+	
+}
+
+.project {
+	display: inline-block;
+	width: calc(89%/3);
+	height: auto;
+	margin: calc(10%/6);
+	text-align: left;
+	line-height: 150%;
+	overflow: auto;
+	float: left;
+	
+}
+
+.project img {
+	width: 100%;
+	height: 30%;
+	object-fit: cover;
+	
+}
+
+.project h2 {font-size: 20px;}
+.project p {font-size: 16px;}
+
+.project-date {
+	font-weight: bold; 
+	color: #bbb;
+	
+}
+
+/* OFFICIALS */
+
+.officials-section {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	margin-top: 50px;
+	text-align: center;
+	/* padding-bottom: 50px; */
+	
+}
+
+.officials {
+	display: inline-block;
+	margin-bottom: 10px;
+	height: auto;
+	width: 100%;
+	padding-top: 3%;
+	
+	
+}
+
+.official {
+	display: inline-block;
+	width: calc(70%/2);
+	margin: 0px calc(22%/4);
+	padding: 2%;
+	height: auto;
+	text-align: center;
+	line-height: 150%;
+	overflow: auto;
+	float: left;
+	transition: all 300ms ease-in;
+	
+}
+
+.official img {
+	width: 100%;
+	height: 50%;
+	object-fit: cover;
+	border-radius: 50%;
+	
+}
+
+.official:hover {
+	border: 3% solid white;
+	box-shadow: 0px 0px 40px #ccc;
+	transform: scale(1.1);
+	
+}
+
+.official h2 {font-size: 30px;}
+.official p {font-size: 25px;}
+
+/* CREATOR */
+
+
+.creator-bg{
+	background: #2d3436;
+	color: #2d3436;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	
+}
+
+.creator-section {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 10% 10% 5% 10%;
+	
+}
+
+.creator-content {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	padding: 5% 2.5%;
+	
+}
+
+.creator-left, .creator-right{
+	float: left;
+	height: 100%;
+	box-sizing: border-box;
+	animation: creator-animation ease-in-out 2000ms infinite alternate;
+	box-shadow: 0px 0px 10px black;
+	
+}
+
+.creator-right{
+	width: 65%;
+	padding: 5%;
+	
+}
+
+.creator-right{
+	width:65%;
+	padding: 3.5%;
+	transition: color 500ms ease-in-out, 
+				font-size 500ms ease-in-out, 
+				text-shadow 500ms ease-in-out;
+	border: 10px solid white;
+	border-left: 0px;
+	box-sizing: border-box;
+	
+}
+
+.creator-right:hover {
+	color: white;
+	font-size: 101%;
+	text-shadow: 0px 0px 10px black;
+	
+}
+
+.creator-right h1{
+	font-size: 350%;
+	margin: 0px;
+	
+}
+
+.creator-right h2{
+	font-weight: normal;
+	
+}
+
+.creator-left{
+	width: 35%;
+	box-shadow: 0px 0px 30px black;
+	
+}
+
+@keyframes creator-animation {
+	from {margin-top: -10px;}
+	to {margin-top: 10px;}
+	
+}
+
+.creator-left img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	
+}
+
+
+
+
+
