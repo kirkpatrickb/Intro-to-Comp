@@ -33,7 +33,7 @@ p {
 	z-index: 9999;
 	width: 100%;
 	list-style-type: none;
-	background-color: #145A32;
+	background-color: #101823;
 	margin: 0px;
 	padding: 0px;
 	overflow: hidden;
@@ -47,7 +47,7 @@ p {
 	width: 100%;
 	height: 85px;
 	display: block;
-	background-color: #145A32;
+	background-color: #101823;
 	
 }
 
@@ -72,7 +72,7 @@ p {
 	
 }
 .nav-bar li:hover {
-	background-color: #1E8449;
+	background-color: #263A54;
 	
 }
 .nav-bar img {
@@ -354,7 +354,7 @@ p {
 }
 
 .prev, .next {
-	background-color: #145A32;
+	background-color: #101823;
 	border: none;
 	color: white;
 	padding: 1% 2%;
@@ -374,8 +374,8 @@ p {
 	left: 95.2%;	
 }
 
-.prev:hover { background-color: #1E8449; }
-.next:hover { background-color: #1E8449; }
+.prev:hover { background-color: #263A54; }
+.next:hover { background-color: #263A54; }
 
 .page-gallery img{
 	width: 100%;
@@ -478,7 +478,7 @@ p {
 }
 
 .barangay-more {
-	color: #145A32;
+	color: #FF4654;
 	
 }
 
@@ -501,7 +501,7 @@ p {
 	width: 100%;
 	height: 40vh;
 	margin: 35px auto;
-	border-top: 3px solid #145A32;
+	border-top: 3px solid #FF4654;
 	padding-top: 35px;
 	opacity: 0.5;
 	transition: all 300ms ease-in;
@@ -547,7 +547,7 @@ p {
 	/* SCROLL */
     .place-text::-webkit-scrollbar-track {
         padding: 2px 0;
-        background-color: #1E8449
+        background-color: #263A54
     }
 
     .place-text::-webkit-scrollbar {
@@ -557,7 +557,7 @@ p {
     .place-text::-webkit-scrollbar-thumb {
         border-radius: 10px;
         box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-        background-color: #145A32;
+        background-color: #101823;
     }
 	
 	/* GALLERY */
@@ -582,7 +582,7 @@ p {
 
 	/* GALLERY BUTTONS */
 .prev2, .next2 {
-	background-color: #145A32;
+	background-color: #5D2832;
 	border: none;
 	color: white;
 	padding: 1% 2%;
@@ -598,8 +598,8 @@ p {
 .next2 { 
 	left: 94.3%;	
 }
-.prev2:hover { background-color: #1E8449; }
-.next2:hover { background-color: #1E8449; }
+.prev2:hover { background-color: #FF4654; }
+.next2:hover { background-color: #FF4654; }
 
 
 /*------- PROJECTS -------*/
