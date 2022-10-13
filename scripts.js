@@ -5,148 +5,148 @@ var i = 0;
 function nextImage() {if (i == image.length - 1) {i = 0;} else {i += 1;}document.getElementById("holder").innerHTML = "<img src=resources/about/gallery/" + image[i]+ ".jpg>";}
 function prevImage() {if (i == 0) {i = image.length - 1;} else {i -= 1;}document.getElementById("holder").innerHTML = "<img src=resources/about/gallery/" + image[i] + ".jpg>";}
 
-// MARIKINA RIVER PARK
-function nextImageMarikinaRiverPark() {
+// PEARL
+function nextImagePearl() {
 	if (i == image2.length - 1) {
 		i = 0;
 	} else {
 		i += 1;
 	}
-	document.getElementById("MarikinaRiverPark").innerHTML = "<img src=resources/places/marikina-river-park/" + image2[i] + ".jpg>";
+	document.getElementById("Pearl").innerHTML = "<img src=resources/places/Pearl/" + image2[i] + ".jpg>";
 }
-function prevImageMarikinaRiverPark() {
+function prevImagePearl() {
 	if (i == 0) {
 		i = image2.length - 1;
 	} else {
 		i -= 1;
 	}
-	document.getElementById("MarikinaRiverPark").innerHTML = "<img src=resources/places/marikina-river-park/" + image2[i] + ".jpg>";
+	document.getElementById("Pearl").innerHTML = "<img src=resources/places/Pearl/" + image2[i] + ".jpg>";
 }
 
-// MARIKINA CITY SHOE MUSEUM
-function nextImageMarikinaCityShoeMuseum() {
+// FRACTURE
+function nextImageFracture() {
 	if (i == image2.length - 1) {
 		i = 0;
 	} else {
 		i += 1;
 	}
-	document.getElementById("MarikinaCityShoeMuseum").innerHTML = "<img src=resources/places/marikina-city-shoe-museum/" + image2[i] + ".jpg>";
+	document.getElementById("Fracture").innerHTML = "<img src=resources/places/Fracture/" + image2[i] + ".jpg>";
 }
-function prevImageMarikinaCityShoeMuseum() {
+function prevImageFracture() {
 	if (i == 0) {
 		i = image2.length - 1;
 	} else {
 		i -= 1; 
 	}
-	document.getElementById("MarikinaCityShoeMuseum").innerHTML = "<img src=resources/places/marikina-city-shoe-museum/" + image2[i] + ".jpg>";
+	document.getElementById("Fracture").innerHTML = "<img src=resources/places/Fracture/" + image2[i] + ".jpg>";
 	}
 	
-// PHILIPPINE SCIENCE CENTRUM
-function nextImagePhilippineScienceCentrum() {
+// BREEZE
+function nextImageBreeze() {
 	if (i == image2.length - 1) {
 		i = 0;
 	} else {
 		i += 1;
 	}
-	document.getElementById("PhilippineScienceCentrum").innerHTML = "<img src=resources/places/philippine-science-centrum/" + image2[i] + ".jpg>";
+	document.getElementById("Breeze").innerHTML = "<img src=resources/places/Breeze/" + image2[i] + ".jpg>";
 }
-function prevImagePhilippineScienceCentrum() {
+function prevImageBreeze() {
 	if (i == 0) {
 		i = image2.length - 1;
 	} else {
 		i -= 1; 
 	}
-	document.getElementById("PhilippineScienceCentrum").innerHTML = "<img src=resources/places/philippine-science-centrum/" + image2[i] + ".jpg>";
+	document.getElementById("Breeze").innerHTML = "<img src=resources/places/Breeze/" + image2[i] + ".jpg>";
 	}
 	
-// TEATRO MARIKINA
-function nextImageTeatroMarikina() {
+// ICEBOX
+function nextImageIcebox() {
 	if (i == image2.length - 1) {
 		i = 0;
 	} else {
 		i += 1;
 	}
-	document.getElementById("TeatroMarikina").innerHTML = "<img src=resources/places/teatro-marikina/" + image2[i] + ".jpg>";
+	document.getElementById("Icebox").innerHTML = "<img src=resources/places/Icebox/" + image2[i] + ".jpg>";
 }
-function prevImageTeatroMarikina() {
+function prevImageIcebox() {
 	if (i == 0) {
 		i = image2.length - 1;
 	} else {
 		i -= 1; 
 	}
-	document.getElementById("TeatroMarikina").innerHTML = "<img src=resources/places/teatro-marikina/" + image2[i] + ".jpg>";
+	document.getElementById("Icebox").innerHTML = "<img src=resources/places/Icebox/" + image2[i] + ".jpg>";
 	}	
 	
-// PAIR OF SHOES
-function nextImagePairOfShoes() {
+// BIND
+function nextImageBind() {
 	if (i == image2.length - 1) {
 		i = 0;
 	} else {
 		i += 1;
 	}
-	document.getElementById("PairOfShoes").innerHTML = "<img src=resources/places/pair-of-shoes/" + image2[i] + ".jpg>";
+	document.getElementById("Bind").innerHTML = "<img src=resources/places/Bind/" + image2[i] + ".jpg>";
 }
-function prevImagePairOfShoes() {
+function prevImageBind() {
 	if (i == 0) {
 		i = image2.length - 1;
 	} else {
 		i -= 1; 
 	}
-	document.getElementById("PairOfShoes").innerHTML = "<img src=resources/places/pair-of-shoes/" + image2[i] + ".jpg>";
+	document.getElementById("Bind").innerHTML = "<img src=resources/places/Bind/" + image2[i] + ".jpg>";
 	}
 	
-// MARIKINA SPORTS CENTER
-function nextImageMarikinaSportsCenter() {
+// HAVEN
+function nextImageHaven() {
 	if (i == image2.length - 1) {
 		i = 0;
 	} else {
 		i += 1;
 	}
-	document.getElementById("MarikinaSportsCenter").innerHTML = "<img src=resources/places/marikina-sports-center/" + image2[i] + ".jpg>";
+	document.getElementById("Haven").innerHTML = "<img src=resources/places/Haven/" + image2[i] + ".jpg>";
 }
-function prevImageMarikinaSportsCenter() {
+function prevImageHaven() {
 	if (i == 0) {
 		i = image2.length - 1;
 	} else {
 		i -= 1; 
 	}
-	document.getElementById("MarikinaSportsCenter").innerHTML = "<img src=resources/places/marikina-sports-center/" + image2[i] + ".jpg>";
+	document.getElementById("Haven").innerHTML = "<img src=resources/places/Haven/" + image2[i] + ".jpg>";
 	}
 		
-// CITYHOOD PARK
-function nextImageCityhoodPark() {
+// SPLIT
+function nextImageSplit() {
 	if (i == image2.length - 1) {
 		i = 0;
 	} else {
 		i += 1;
 	}
-	document.getElementById("CityhoodPark").innerHTML = "<img src=resources/places/cityhood-park/" + image2[i] + ".jpg>";
+	document.getElementById("Split").innerHTML = "<img src=resources/places/Split/" + image2[i] + ".jpg>";
 }
-function prevImageCityhoodPark() {
+function prevImageSplit() {
 	if (i == 0) {
 		i = image2.length - 1;
 	} else {
 		i -= 1; 
 	}
-	document.getElementById("CityhoodPark").innerHTML = "<img src=resources/places/cityhood-park/" + image2[i] + ".jpg>";
+	document.getElementById("Split").innerHTML = "<img src=resources/places/Split/" + image2[i] + ".jpg>";
 	}
 			
-// EVOLUTION PARK
+// ASCENT
 function nextImageEvolutionPark() {
 	if (i == image2.length - 1) {
 		i = 0;
 	} else {
 		i += 1;
 	}
-	document.getElementById("EvolutionPark").innerHTML = "<img src=resources/places/evolution-park/" + image2[i] + ".jpg>";
+	document.getElementById("Ascent").innerHTML = "<img src=resources/places/Ascent/" + image2[i] + ".jpg>";
 }
-function prevImageEvolutionPark() {
+function prevImageAscent() {
 	if (i == 0) {
 		i = image2.length - 1;
 	} else {
 		i -= 1; 
 	}
-	document.getElementById("EvolutionPark").innerHTML = "<img src=resources/places/evolution-park/" + image2[i] + ".jpg>";
+	document.getElementById("Ascent").innerHTML = "<img src=resources/places/Ascent/" + image2[i] + ".jpg>";
 	}
 	
 	
