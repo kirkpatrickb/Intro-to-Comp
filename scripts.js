@@ -132,7 +132,7 @@ function prevImageSplit() {
 	}
 			
 // ASCENT
-function nextImageEvolutionPark() {
+function nextImageAscent() {
 	if (i == image2.length - 1) {
 		i = 0;
 	} else {
